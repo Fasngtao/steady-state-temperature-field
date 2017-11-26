@@ -1,0 +1,15 @@
+function tp=calculate-tp(Tp, T0, H, y0, y1, Ta)
+%%
+这个函数用于计算公式中的的tp向量，即边界齐次化后的温度；
+首先通过计算输入参数的个数，判断计算域的范围；
+tp输出为向量，该向量的长度由Tp决定；
+%%
+if nargin==2
+	tp=Tp-T0;
+ elseif nargin==6
+ 	tp=Tp-Ta-(T0-Ta).*(H*y1+1)./(H*y0+1);
+ else
+ 	error('error in the input amount of the calculate-tp function');
+end
+
+end

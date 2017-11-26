@@ -1,0 +1,9 @@
+function a0i=calculate-a0i(x0, y0, xi, yi)
+%%
+这个函数用来计算a0i，即已知点到每根冻结管中心的“距离”
+a0i的输出形式为向量；向量的长度由xi/yi的长度决定；
+%%
+
+a0i=log((x0.-xi).^2+(y0.-yi).^2);
+
+end

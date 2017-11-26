@@ -1,0 +1,18 @@
+function ta=calculate-ta(x, y, xi, yi)
+%%
+这个函数用于计算公式中的ta向量，即待求温度点到每根冻结管的中心“距离”；
+输出结果应该是向量的向量形式：内部向量的长度由xi/yi的长度决定；
+
+
+if nargin<>5
+ error('error in the input amount of the calculate-ta function');
+end
+
+if length(xi)<>length(yi)
+ error('error in the length of xi or yi');
+end
+%%
+
+ta=log((x-xi).^2+(y-yi).^2);
+
+end

@@ -1,0 +1,14 @@
+function aij=calculate-aij(xi, yi, ri)
+%%
+这个函数用于计算公式中的aij，即第i根冻结管中心到第j根冻结管中心的“距离”；
+当i=j时，求每根冻结管温度控制点到该冻结管中心的“距离”；
+aij的输出形式为一个方阵，方阵的大小由xi/yi/ri的长度决定；
+%%
+
+n=length(xi);
+
+for i=1:n
+ aij(:,i)=log((xi(i)-xi)^2+(yi(i)-yi)^2);
+end
+
+end

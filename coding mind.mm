@@ -1,4 +1,4 @@
-<map version="docear 1.1" project="14B42D8C675D2LXW02MN75S5QBUK579NLXD6" project_last_home="file:/D:/literature/&#x914d;&#x5957;&#x6587;&#x4ef6;/docear/" dcr_id="1511490775651_d95e80c0bi884ydvlk0wjjxi4">
+<map version="docear 1.1" dcr_id="1511490775651_d95e80c0bi884ydvlk0wjjxi4" project="14B42D8C675D2LXW02MN75S5QBUK579NLXD6" project_last_home="file:/D:/literature/&#x914d;&#x5957;&#x6587;&#x4ef6;/docear/">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="coding mind&#xa;&#x5728;MATLAB&#x5b9e;&#x9645;&#x60c5;&#x51b5;&#x4e2d;&#xff0c;&#x5f88;&#x96be;&#x505a;&#x5230;&#x51fd;&#x6570;&#x7684;&#x8868;&#x8fbe;&#x5f62;&#x5f0f;&#xff0c;&#x56e0;&#x6b64;&#x6211;&#x4eec;&#x5728;&#x5199;&#x4ee3;&#x7801;&#x7684;&#x65f6;&#x5019;&#x603b;&#x9700;&#x8981;&#x8003;&#x8651;&#x5230;&#x5b9e;&#x9645;&#x8f93;&#x5165;&#x7684;x&#xff0c;y&#xff1b;" FOLDED="false" ID="ID_434070869" CREATED="1511490775609" MODIFIED="1511542649937">
 <hook NAME="AutomaticEdgeColor" COUNTER="2"/>
@@ -54,8 +54,8 @@
 </hook>
 <node TEXT="&#x9700;&#x8981;&#x8003;&#x8651;&#x5c06;&#x4e00;&#x6839;&#x51bb;&#x7ed3;&#x7ba1;&#x56fa;&#x5b9a;&#x5728;&#x539f;&#x70b9;&#xff1f;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1110608624" CREATED="1511544290675" MODIFIED="1511544789816" HGAP="1257" VSHIFT="-760" MOVED="1511544294248">
 <hook NAME="FreeNode"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1726997885" STARTINCLINATION="-38;-120;" ENDINCLINATION="64;-47;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font SIZE="14" BOLD="true" ITALIC="true"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1726997885" STARTINCLINATION="-38;-120;" ENDINCLINATION="64;-47;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="&#x4e8c;&#x7ef4;&#x95ee;&#x9898;" POSITION="right" ID="ID_1284989259" CREATED="1511490804002" MODIFIED="1511490814657">
 <edge COLOR="#ff0000"/>
@@ -73,6 +73,7 @@
 </node>
 </node>
 <node TEXT="&#x6c42;&#x89e3;" ID="ID_560690979" CREATED="1511492149958" MODIFIED="1511544567068" HGAP="30" VSHIFT="-10" MOVED="1511544568511">
+<node TEXT="&#x8ba1;&#x7b97;a0i" ID="ID_377288937" CREATED="1511710061601" MODIFIED="1511710099031" MOVED="1511710128037" BACKGROUND_COLOR="#00cc99"/>
 <node TEXT="&#x8ba1;&#x7b97;aij" ID="ID_1796082754" CREATED="1511538067661" MODIFIED="1511543965722" HGAP="40" VSHIFT="-10" BACKGROUND_COLOR="#00cc99">
 <node TEXT="&#x7ec4;&#x5408;&#x77e9;&#x9635;" ID="ID_91968640" CREATED="1511538578364" MODIFIED="1511543971336" HGAP="30" BACKGROUND_COLOR="#00cc99"/>
 </node>
@@ -101,8 +102,8 @@
 </node>
 <node TEXT="&#x7b49;&#x6e29;&#x7ebf;&#x56fe;" ID="ID_1267935465" CREATED="1511543631647" MODIFIED="1511544078736" HGAP="30" VSHIFT="10"/>
 <node TEXT="&#x8fd9;&#x4e24;&#x4e2a;&#x95ee;&#x9898;&#x7684;&#x5b9e;&#x73b0;&#x53ef;&#x80fd;&#x6709;&#x70b9;&#x95ee;&#x9898;&#xff1f;" ID="ID_1095291416" CREATED="1511544083549" MODIFIED="1511544366697" COLOR="#000000">
-<hook NAME="SummaryNode"/>
 <font SIZE="14" BOLD="true" ITALIC="true"/>
+<hook NAME="SummaryNode"/>
 </node>
 </node>
 </node>
