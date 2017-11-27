@@ -6,9 +6,10 @@ aij的输出形式为一个方阵，方阵的大小由xi/yi/ri的长度决定；
 %%
 
 n=length(xi);
-
-for i=1:n
- aij(:,i)=log((xi(i)-xi)^2+(yi(i)-yi)^2);
-end
+xixi=repmat(xi,1,n);
+yiyi=repmat(yi,1,n);
+xi=repmat(xi',n,1);
+yi=repmat(yi',n,1);
+aij=log((xi-xixi).^2+(yi-yiyi).^2);
 
 end

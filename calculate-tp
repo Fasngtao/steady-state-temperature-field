@@ -7,7 +7,7 @@ tp输出为向量，该向量的长度由Tp决定；
 if nargin==2
 	tp=Tp-T0;
  elseif nargin==6
- 	tp=Tp-Ta-(T0-Ta).*(H*y1+1)./(H*y0+1);
+ 	tp=Tp-Ta-(T0-Ta).*(H.*y1+1)./(H*y0+1);
  else
  	error('error in the input amount of the calculate-tp function');
 end
