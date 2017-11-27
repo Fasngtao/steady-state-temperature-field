@@ -1,0 +1,30 @@
+function T=calculate-T(x,y,x0,y0,xi,yi,ri,T0,Tp,Ta,H)
+%%
+这个函数用于待求点的温度；
+首先通过计算输入参数的个数，判断计算域的范围；
+T输出由x/y输入的形式大小决定；
+%%
+
+if nargin==9
+	T=T0;
+ elseif nargin==11
+ 	T=Ta+(T0-Ta).*(H.*y+1)./(H*y0+1);
+ else
+ 	error('error in the input amount of the calculate-tp function');
+end
+
+n=length(xi);
+
+tp=calculate-tp(Tp, T0, H, y0, yi, Ta);
+
+ta=calculate-ta(x, y, xi, yi);
+
+aij=calculate-aij(xi, yi, ri);
+
+a0i=calculate-a0i(x0, y0, xi, yi);
+
+a0ia0i=repmat(a0i,1,n);
+
+T=T+tp*inv(aij-a0i0i)*(ta-a0i);
+
+end
